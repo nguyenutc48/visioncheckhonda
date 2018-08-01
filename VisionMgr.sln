@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SG_CNV_HDV_VisionMgr", "SG_CNV_HDV_VisionMgr\SG_CNV_HDV_VisionMgr.csproj", "{455C609A-FE5F-4AA1-8CFB-1F974B3A142E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaGiangVisionManager", "SaGiangVisionManager\SaGiangVisionManager.csproj", "{ED4235E8-63FA-49BE-863F-39D5B8441F8F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{37131312-2A9E-49D0-B32C-53D55D1BA9A7}"
+	ProjectSection(SolutionItems) = preProject
+		Performance1.psess = Performance1.psess
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{174C51F8-F70B-4238-965B-0909DDABE527}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "Setup1\Setup1.vdproj", "{2B90D321-E561-4897-A0AB-F02183365891}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{455C609A-FE5F-4AA1-8CFB-1F974B3A142E}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{455C609A-FE5F-4AA1-8CFB-1F974B3A142E}.Debug|Any CPU.Build.0 = Debug|x86
+		{455C609A-FE5F-4AA1-8CFB-1F974B3A142E}.Release|Any CPU.ActiveCfg = Release|x86
+		{455C609A-FE5F-4AA1-8CFB-1F974B3A142E}.Release|Any CPU.Build.0 = Release|x86
+		{455C609A-FE5F-4AA1-8CFB-1F974B3A142E}.Release|Any CPU.Deploy.0 = Release|x86
+		{ED4235E8-63FA-49BE-863F-39D5B8441F8F}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{ED4235E8-63FA-49BE-863F-39D5B8441F8F}.Debug|Any CPU.Build.0 = Debug|x86
+		{ED4235E8-63FA-49BE-863F-39D5B8441F8F}.Release|Any CPU.ActiveCfg = Release|x86
+		{ED4235E8-63FA-49BE-863F-39D5B8441F8F}.Release|Any CPU.Build.0 = Release|x86
+		{174C51F8-F70B-4238-965B-0909DDABE527}.Debug|Any CPU.ActiveCfg = Debug
+		{174C51F8-F70B-4238-965B-0909DDABE527}.Release|Any CPU.ActiveCfg = Release
+		{2B90D321-E561-4897-A0AB-F02183365891}.Debug|Any CPU.ActiveCfg = Debug
+		{2B90D321-E561-4897-A0AB-F02183365891}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08C56E3A-29AE-4BEA-A4E0-0F97F0D5ECBB}
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+EndGlobal
